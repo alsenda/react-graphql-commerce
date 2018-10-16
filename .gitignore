@@ -2,6 +2,7 @@
 
 backend/.vscode
 frontend/.vscode
+frontend/.next/
 
 backend/node_modules/
 frontend/node_modules/
