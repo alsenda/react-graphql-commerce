@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+import theme from './theme';
 
 const loading = keyframes`
   from {
@@ -33,7 +34,7 @@ const Form = styled.form`
     border: 1px solid black;
     &:focus {
       outline: 0;
-      border-color: ${props => props.theme.red};
+      border-color: ${ theme.red };
     }
   }
   button,

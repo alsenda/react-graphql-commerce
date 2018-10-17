@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import theme from './theme';
 
 const Supreme = styled.h3`
-  background: ${props => props.theme.red};
+  background: ${ theme.red };
   color: white;
   display: inline-block;
   padding: 4px 5px;

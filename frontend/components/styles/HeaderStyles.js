@@ -7,6 +7,7 @@ margin-left: 2rem;
 position: relative;
 z-index: 2;
 transform: skew(-7deg);
+display: block;
 a {
   padding: .5rem 1rem;
   background: ${ theme.red };
@@ -23,9 +24,9 @@ a {
 const StyledHeader = styled.header`
 .bar {
   border-bottom: 10px solid ${ theme.black };
+  border-top: 1px solid ${ theme.lightGrey };
   display: grid;
   grid-template-columns: auto 1fr;
-  justify-content: space-between;
   align-items: stretch;
   @media (max-width: 1300px) {
     grid-template-columns: 1fr;

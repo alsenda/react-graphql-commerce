@@ -1,8 +1,9 @@
 import styled from 'styled-components';
+import theme from './theme';
 
 const NavStyles = styled.ul`
   margin: 0;
-  padding: 0;
+  justify-content: center;
   display: flex;
   justify-self: end;
   font-size: 2rem;
@@ -25,7 +26,7 @@ const NavStyles = styled.ul`
     &:before {
       content: '';
       width: 2px;
-      background: ${props => props.theme.lightgrey};
+      background: ${ theme.lightGrey };
       height: 100%;
       left: 0;
       position: absolute;
@@ -54,9 +55,8 @@ const NavStyles = styled.ul`
     }
   }
   @media (max-width: 1300px) {
-    border-top: 1px solid ${props => props.theme.lightgrey};
+    border-top: 1px solid ${ theme.lightGrey };
     width: 100%;
-    justify-content: center;
     font-size: 1.5rem;
   }
 `;
