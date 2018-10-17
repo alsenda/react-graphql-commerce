@@ -7,11 +7,10 @@ margin-left: 2rem;
 position: relative;
 z-index: 2;
 transform: skew(-7deg);
-display: block;
 a {
   padding: .5rem 1rem;
-  background: ${ theme.red };
-  color: white;
+  background: ${ theme.mainColor };
+  color: ${ theme.black };
   transform: uppercase;
   text-decoration: none;
 }

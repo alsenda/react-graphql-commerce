@@ -7,7 +7,7 @@ const OrderItemStyles = styled.li`
   padding: 2rem;
   border: 1px solid ${ theme.offWhite };
   h2 {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid ${ theme.mainColor };
     margin-top: 0;
     margin-bottom: 2rem;
     padding-bottom: 2rem;

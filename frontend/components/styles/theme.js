@@ -1,5 +1,6 @@
 export default {
-  red: '#FF0000',
+  mainColor: '#FFC600',
+  secondaryColor: '#FF2C70',
   black: '#393939',
   lightGrey: '#E1E1E1',
   offWhite: '#EDEDED',

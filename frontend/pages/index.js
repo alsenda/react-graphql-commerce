@@ -6,6 +6,7 @@ const home = props => (
     <Link href="/sell">
       <a>Sell</a>
     </Link>
+    { props.children }
   </div>
 );
 

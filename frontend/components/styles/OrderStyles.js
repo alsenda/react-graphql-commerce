@@ -7,7 +7,7 @@ const OrderStyles = styled.div`
   border: 1px solid ${ theme.offWhite };
   box-shadow: ${ theme.bs };
   padding: 2rem;
-  border-top: 10px solid red;
+  border-top: 10px solid ${ theme.mainColor };
   & > p {
     display: grid;
     grid-template-columns: 1fr 5fr;
