@@ -2,7 +2,8 @@
 
 backend/.vscode
 frontend/.vscode
-frontend/.next/
+frontend/.next
+frontend/.eslintrc
 
 backend/node_modules/
 frontend/node_modules/
