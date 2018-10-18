@@ -2,8 +2,7 @@ import styled from 'styled-components';
 import theme from './theme';
 
 const StyledPage = styled.div`
-  background: white;
-  color: ${ theme.black };
+  color: inherit;
 `;
 
 const Inner = styled.div`

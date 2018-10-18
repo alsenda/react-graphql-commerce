@@ -19,24 +19,26 @@ const NavStyles = styled.ul`
     background: none;
     border: 0;
     cursor: pointer;
+    color: ${ theme.fontColor };
+    transform: skew(-20deg);
+    border-left: 2px solid ${ theme.black };
     @media (max-width: 700px) {
       font-size: 10px;
       padding: 0 10px;
     }
-    &:before {
+    /* &:before {
       content: '';
       width: 2px;
-      background: ${ theme.lightGrey };
+      background: ${ theme.black };
       height: 100%;
       left: 0;
       position: absolute;
-      transform: skew(-20deg);
       top: 0;
       bottom: 0;
-    }
+    } */
     &:after {
-      height: 2px;
-      background: ${ theme.mainColor };
+      height: 15px;
+      background: ${ theme.secondaryColor };
       content: '';
       width: 0;
       position: absolute;
@@ -45,6 +47,7 @@ const NavStyles = styled.ul`
       transition-timing-function: cubic-bezier(1, -0.65, 0, 2.31);
       left: 50%;
       margin-top: 2rem;
+      z-index: 2;
     }
     &:hover,
     &:focus {
@@ -52,6 +55,10 @@ const NavStyles = styled.ul`
       &:after {
         width: calc(100% - 60px);
       }
+      background: ${ theme.mainBackground };
+      transition: all 0.4s;
+      color: ${ theme.secondaryColor };
+      z-index: 3;
     }
   }
   @media (max-width: 1300px) {

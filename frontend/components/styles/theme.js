@@ -1,7 +1,10 @@
 export default {
+  mainBackground: '#FEFEFE',
+  secondaryBackground: '#FFC600',
   mainColor: '#FFC600',
   secondaryColor: '#FF2C70',
-  black: '#393939',
+  fontColor: '#060606',
+  black: '#292929',
   lightGrey: '#E1E1E1',
   offWhite: '#EDEDED',
   maxWidth: '1000px',

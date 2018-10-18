@@ -1,6 +1,7 @@
 *.code-workspace
 
 backend/.vscode
+backend/.env
 frontend/.vscode
 frontend/.next
 frontend/.eslintrc

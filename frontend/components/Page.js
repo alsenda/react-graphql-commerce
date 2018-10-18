@@ -16,6 +16,8 @@ injectGlobal`
   html {
     box-sizing: border-box;
     font-size: 10px;
+    background: ${ theme.mainBackground };
+    color: ${ theme.fontColor };
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -29,7 +31,14 @@ injectGlobal`
   }
   a {
     text-decoration: none;
-    color: ${ theme.black };
+    color: ${ theme.mainColor };
+  }
+  #nprogress .bar {
+    background: ${ theme.secondaryColor };
+  }
+  #nprogress .spinner-icon {
+    border-top-color: ${ theme.secondaryColor };
+    border-left-color: ${ theme.secondaryColor };
   }
 `;
 
