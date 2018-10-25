@@ -1,13 +1,7 @@
-import Link from 'next/link';
+import Items from '../components/Items';
 
 const home = props => (
-  <div>
-    <h1>Home page</h1>
-    <Link href="/sell">
-      <a>Sell</a>
-    </Link>
-    { props.children }
-  </div>
+    <Items/>
 );
 
 export default home;
